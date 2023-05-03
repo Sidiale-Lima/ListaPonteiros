@@ -1,1 +1,25 @@
+Questao10 Resposta:
 
+char:
+&x_char[0] = 000000ac03fff738
+&x_char[1] = 000000ac03fff739
+&x_char[2] = 000000ac03fff73a
+&x_char[3] = 000000ac03fff73b
+
+int:
+&x_int[0] = 000000ac03fff720
+&x_int[1] = 000000ac03fff724
+&x_int[2] = 000000ac03fff728
+&x_int[3] = 000000ac03fff72c
+
+float:
+&x_float[0] = 000000ac03fff710
+&x_float[1] = 000000ac03fff714
+&x_float[2] = 000000ac03fff718
+&x_float[3] = 000000ac03fff71c
+
+double:
+&x_double[0] = 000000ac03fff6f0
+&x_double[1] = 000000ac03fff6f8
+&x_double[2] = 000000ac03fff700
+&x_double[3] = 000000ac03fff708
