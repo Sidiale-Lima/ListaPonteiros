@@ -1,4 +1,4 @@
-Questao03 resposta:
+Questao03 Resposta:
 
 p = i;      --> compilado, mas com erro.
 q = &j;
