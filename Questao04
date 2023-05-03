@@ -1,1 +1,15 @@
+Questao04 resposta:
 
+(a) 20 (inicialmente foi armazenado o valor 10 a uma variável, criado um ponteiro apontando para essa variável e em seguida, mudou o valor para 20, no qual o ponteiro estava apontando e imprimiu esse valor)
+(b) 29.0 (inicialmente foi armazenado o valor 26.5 a uma variável, criado um ponteiro apontando para essa variável e em seguida, mudou o valor para 29.0, no qual o ponteiro estava apontando e imprimiu esse valor)
+(c) P (No início do código foi atribuído uma variável a string "Ponteiros". Nessa auternativa, o código armazena o endereço da primeira letra dessa string em um ponteiro e imprime o caracter que o ponteiro está apontando)
+(d) e 
+(e) P 
+(f) e 
+(g) t 
+(h) 31 
+(i) 45 
+(j) 27 
+(l) 31 
+(m) 45 
+(n) 27
