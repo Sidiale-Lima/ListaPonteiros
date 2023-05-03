@@ -1,1 +1,10 @@
+Questao05 resposta:
 
+contador/valor/valor/endereco/endereco
+        i = 0vet[0] = 1.1*(f + 0) = 1.1&vet[0] = 2A7FFC80(f + 0) = 2A7FFC80
+        i = 1vet[1] = 2.2*(f + 1) = 2.2&vet[1] = 2A7FFC84(f + 1) = 2A7FFC84
+        i = 2vet[2] = 3.3*(f + 2) = 3.3&vet[2] = 2A7FFC88(f + 2) = 2A7FFC88
+        i = 3vet[3] = 4.4*(f + 3) = 4.4&vet[3] = 2A7FFC8C(f + 3) = 2A7FFC8C
+        i = 4vet[4] = 5.5*(f + 4) = 5.5&vet[4] = 2A7FFC90(f + 4) = 2A7FFC90
+        
+        (foram obtidas todas as repostas esperadas)
