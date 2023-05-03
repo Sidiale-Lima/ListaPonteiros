@@ -1,1 +1,43 @@
+Questao13 Resposta:
 
+void selectionSort(float *vetor, int n) {
+    int i, j, min;
+    float temp;
+    for (i = 0; i < n - 1; i++) {
+        min = i;
+        for (j = i + 1; j < n; j++) {
+            if (vetor[j] < vetor[min]) {
+                min = j;
+            }
+        }
+        if (min != i) {
+            temp = vetor[i];
+            vetor[i] = vetor[min];
+            vetor[min] = temp;
+        }
+    }
+}
+
+int main() {
+    int n, i;
+    float *vetor;
+    printf("Digite a quantidade de valores: ");
+    scanf("%d", &n);
+    vetor = (float*) malloc(n * sizeof(float));
+    if (vetor == NULL) {
+        printf("Erro ao alocar memoria\n");
+        exit(1);
+    }
+    printf("Digite os valores:\n");
+    for (i = 0; i < n; i++) {
+        scanf("%f", &vetor[i]);
+    }
+    selectionSort(vetor, n);
+    printf("Valores em ordem crescente:\n");
+    for (i = 0; i < n; i++) {
+        printf("%.2f ", vetor[i]);
+    }
+    printf("\n");
+    free(vetor);
+    return 0;
+}
