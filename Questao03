@@ -1,1 +1,10 @@
+Questao03 resposta:
 
+p = i;      --> compilado, mas com erro.
+q = &j;
+p = &*&i;
+i = (*&)j;  --> expressão ilegal.
+i = *&j;
+i = *&*&j;
+q = *p;     --> compilado, mas com erro.
+i = (*p)++ + *q;
