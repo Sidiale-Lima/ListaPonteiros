@@ -1,1 +1,27 @@
+Questao12 Resposta:
 
+O uso de ponteiros para funções em linguagem C serve para definir, qual função será executada, sem precisar escrever o nome da função naquele ponto do código.
+
+// Função que recebe um ponteiro para outra função como argumento
+void executa_funcao(int (*funcao)(int), int valor) {
+    int resultado = funcao(valor);
+    printf("Resultado: %d\n", resultado);
+}
+
+// Função que eleva um número ao quadrado
+int quadrado(int numero) {
+    return numero * numero;
+}
+
+int main() {
+    // Declara um ponteiro para a função 'quadrado'
+    int (*ponteiro_funcao)(int);
+
+    // Atribui o endereço da função 'quadrado' ao ponteiro
+    ponteiro_funcao = &quadrado;
+
+    // Chama a função 'executa_funcao' passando o ponteiro para a função 'quadrado'
+    executa_funcao(ponteiro_funcao, 5);
+
+    return 0;
+}
