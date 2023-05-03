@@ -1,1 +1,8 @@
+Questao08 Resposta:
 
+O primeiro programa cria um vetor e o preenche com 3 valores. logo em seguida é criado um laço "for" para percorrer esse vetor e imprimir cada valor dele.
+Tendo como impressão: 4 9 13
+
+Já no segundo programa é criado o mesmo vetor com os mesmos valores, criado o laço "for" do mesmo jeito, porém ao invés de imprimir os valores do vetor, é impresso o endereço do valor.
+E como os valores do vetor são inteiros, a diferença entre cada endereço é 4 Bytes.
+No caso da minha compilação, o resultado foi esse: 8BFF8B0 8BFF8B4 8BFF8B8 
