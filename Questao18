@@ -1,1 +1,16 @@
+Questao18 Resposta:
 
+void multiplica_matrizes(float *A, float *B, float *C, int linhasA, int colunasA, int colunasB){
+    int i, j, k;
+    float soma;
+    
+    for(i=0; i<linhasA; i++){
+        for(j=0; j<colunasB; j++){
+            soma = 0;
+            for(k=0; k<colunasA; k++){
+                soma += A[i*colunasA + k] * B[k*colunasB + j];
+            }
+            C[i*colunasB + j] = soma;
+        }
+    }
+}
