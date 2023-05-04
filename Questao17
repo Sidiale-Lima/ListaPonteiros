@@ -1,1 +1,36 @@
+Questao17 Resposta:
 
+void soma_vetores(int vetor1[], int vetor2[], int resultado[], int tamanho) {
+    int i;
+
+    for (i = 0; i < tamanho; i++) {
+        resultado[i] = vetor1[i] + vetor2[i];
+    }
+}
+
+int main() {
+    int vetor1[999], vetor2[999], resultado[999];
+    int tamanho, i;
+
+    printf("Digite o tamanho dos vetores: ");
+    scanf("%d", &tamanho);
+
+    printf("Digite os valores do primeiro vetor:\n");
+    for (i = 0; i < tamanho; i++) {
+        scanf("%d", &vetor1[i]);
+    }
+
+    printf("Digite os valores do segundo vetor:\n");
+    for (i = 0; i < tamanho; i++) {
+        scanf("%d", &vetor2[i]);
+    }
+
+    soma_vetores(vetor1, vetor2, resultado, tamanho);
+
+    printf("Vetor soma:\n");
+    for (i = 0; i < tamanho; i++) {
+        printf("%d ", resultado[i]);
+    }
+
+    return 0;
+}
